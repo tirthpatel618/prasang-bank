@@ -132,7 +132,7 @@ export default function Page() {
     <main className="wrap">
       <header className="header">
         <div>
-          <h1 className="title">Prasangs</h1>
+          <h1 className="title">Prasang Bank</h1>
           <p className="muted">Browse and filter by topics</p>
         </div>
         <div className="toolbar">

@@ -53,3 +53,34 @@ a {
   padding: 2px 8px;
   width: max-content;
 }
+
+/* highlight */
+.hl {
+  background: #fff3a3;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* line clamp for compact view */
+.clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal; /* allow wrapping while clamped */
+}
+
+/* small action button in card footer */
+.card-actions { display: flex; align-items: center; gap: 8px; }
+.tiny-btn {
+  border: 1px solid var(--border);
+  background: #fafafa;
+  color: #333;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tiny-btn:hover { background: #f0f0f0; }
+
