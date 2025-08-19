@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Prasangs",
+  title: "Prasang Bank",
   description: "Browse prasangs and filter by topics",
 };
 

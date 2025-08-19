@@ -40,3 +40,16 @@ a {
     color-scheme: dark;
   }
 }
+
+.copyable { cursor: copy; position: relative; }
+.copied-badge {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #0a7f39;
+  background: #e9f7ef;
+  border: 1px solid #c8ead8;
+  border-radius: 8px;
+  padding: 2px 8px;
+  width: max-content;
+}
