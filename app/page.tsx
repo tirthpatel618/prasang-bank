@@ -89,9 +89,9 @@ export default function Page() {
         if (!alive) return;
         if (error) setErr(error.message);
         else setRawPrasangs((data || []) as Prasang[]);
-      } catch (e: any) {
+      } catch (e: unknown) {
         if (!alive) return;
-        setErr(e?.message || "Unknown error");
+        setErr(e instanceof Error ? e.message : "Unknown error");
       } finally {
         if (alive) setLoading(false);
       }
